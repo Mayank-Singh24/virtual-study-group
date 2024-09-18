@@ -1,0 +1,45 @@
+.video-chat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  video {
+    width: 45%;
+    border-radius: 10px;
+    border: 2px solid #007bff;
+  }
+  
+  .peer-id {
+    margin: 10px;
+    font-size: 16px;
+    padding: 5px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    background-color: #f0f0f0;
+  }
+  
+  button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
